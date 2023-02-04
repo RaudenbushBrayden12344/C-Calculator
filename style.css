@@ -1,0 +1,49 @@
+/* 
+Color Pallete
+Background: #fff
+Button 1: #000000
+Button 2: #e69b00
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.titleSection {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titleSection h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.calculatorSection {
+    margin: 4rem;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    text-align: center;
+}
+
+.buttonNineteen {
+    background-color: #03a9f4;
+}
+
+
