@@ -1,20 +1,8 @@
-const buttonOne = "(";
-const buttonTwo = ")";
-const buttonThree = "%";
-const buttonFour = "AC";
-const buttonFive = 7;
-const buttonSix = 8;
-const buttonSeven = 9;
-const buttonEight = "/";
-const buttonNine = 4;
-const buttonTen = 5;
-const buttonEleven = 6;
-const buttonTwelve = "*"
-const buttonThirteen = 1;
-const buttonFourteen = 2;
-const buttonFifteen = 3;
-const buttonSixteen = 0;
-const buttonSeventeen = "+";
-const buttonEighteen = ".";
-const buttonNineteen = "=";
+let textInput = document.getElementsByClassName("listText");
+let createNewBox = document.getElementsByClassName("inputButton");
 
+function createNewInputBox() {
+    const para = document.createElement("input");
+    para.innerText = "This is a input box";
+    document.body.appendChild(para);
+}
